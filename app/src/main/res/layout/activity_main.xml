@@ -22,6 +22,7 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="폴더 생성"
@@ -29,6 +30,7 @@
             android:id="@+id/b1" />
 
         <Button
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="폴더 삭제"
@@ -36,6 +38,7 @@
             android:id="@+id/b2" />
 
         <Button
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="파일 생성"
@@ -43,6 +46,7 @@
             android:id="@+id/b3" />
 
         <Button
+            android:onClick="onClick"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="파일 읽기"
@@ -51,6 +55,7 @@
     </LinearLayout>
 
     <Button
+        android:onClick="onClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="파일 목록 가져오기"
